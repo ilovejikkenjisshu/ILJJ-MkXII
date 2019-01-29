@@ -165,11 +165,11 @@ F 3 "" H 3500 1100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 800  1650 900 
-Text Label 1650 1000 2    50   ~ 0
+Text Label 1650 1400 2    50   ~ 0
 F0
 Text Label 1650 1200 2    50   ~ 0
 F1
-Text Label 1650 1400 2    50   ~ 0
+Text Label 1650 1000 2    50   ~ 0
 F2
 Text Label 1650 800  2    50   ~ 0
 Vcc
@@ -210,7 +210,7 @@ U 1 1 5C4FD939
 P 1850 1300
 F 0 "BITPORT1" H 1900 2017 50  0000 C CNN
 F 1 "Conn_02x12_Counter_Clockwise" H 1900 1926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 1850 1300 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Horizontal" H 1850 1300 50  0001 C CNN
 F 3 "~" H 1850 1300 50  0001 C CNN
 	1    1850 1300
 	1    0    0    -1  
@@ -236,7 +236,7 @@ NoConn ~ 1650 1800
 NoConn ~ 1650 1700
 NoConn ~ 1650 1600
 Text Label 2150 1200 0    50   ~ 0
-F2
+F0
 $Comp
 L Device:LED L0
 U 1 1 5C50BDEB
