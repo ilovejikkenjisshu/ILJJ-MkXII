@@ -1,0 +1,17 @@
+M48
+;DRILL file {KiCad (5.0.0)} date 02/08/19 12:09:55
+;FORMAT={-:-/ absolute / metric / decimal}
+FMAT,2
+METRIC,TZ
+T1C3.200
+%
+G90
+G05
+M71
+T1
+X62.23Y-51.435
+X114.3Y-91.44
+X62.23Y-91.44
+X114.3Y-51.435
+T0
+M30
